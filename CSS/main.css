@@ -9,7 +9,7 @@ body {
     font-family: Roboto, Arial, sans-serif;
     font-size: 1.2em;
     line-height: 1.4;
-    margin: 0 auto;
+    margin: auto;
     max-width: 80vw;
     padding: 2em 2em 4em;
     text-align: left;
@@ -18,10 +18,12 @@ body {
 .top-nav {
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
+    width: 80%;
     height: 2em;
-    background: navy;
+    background: transparent;
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr;
+    margin: 0 auto;
 }
 
 .top-comment {
@@ -38,7 +40,7 @@ body {
 blockquote{
     border: none;
     text-align: center;
-    margin-left; 0;
+    margin-left: 0;
 }
 
 a {
@@ -60,7 +62,7 @@ a {
     padding: 0;
     overflow: hidden;
     background-color: transparent;
-    color: white;
+    color: #323232;
 }
 
 li {
@@ -120,6 +122,16 @@ img {
 
 .border {
     border: 1px solid black;
+}
+
+.nav-to-the-right {
+    margin-left: auto;
+    margin-right: 0em;
+}
+
+.side-pads {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
 @media only screen and (min-width: 1024px) {
