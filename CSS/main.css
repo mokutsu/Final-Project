@@ -134,6 +134,40 @@ img {
     padding-right: 0.5em;
 }
 
+/* small screen nav */
+.hamburger-icon {
+    /* display: inline-block; */
+    grid-column: -1;
+}
+.top-nav {
+    background: lightblue;
+    height: unset;
+}
+.nav-menu {
+    /* position: fixed; */
+    grid-row: 2;
+    grid-column: 1 / 5;
+    display: grid;
+    flex-direction: column;
+    background-color: pink;
+    width: 100%;
+}
+/* bigger screen nav  */
+@media only screen and (min-width: 600px) {
+    .logo {
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .hamburger-icon {
+        display: none;
+    }
+    .nav-menu {
+        display: inline-block;
+        grid-row: 1;
+        grid-column: 4;
+    }
+}
+
 @media only screen and (min-width: 1024px) {
 
     .grid-wrapper {
