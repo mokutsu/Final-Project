@@ -7,7 +7,7 @@ body {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.08);
     color: #323232;
     font-family: Roboto, Arial, sans-serif;
-    font-size: 1.2em;
+    font-size: 18px;
     line-height: 1.4;
     margin: auto;
     max-width: 80vw;
@@ -136,7 +136,7 @@ img {
 
 /* small screen nav */
 .hamburger-icon {
-    /* display: inline-block; */
+    display: inline-block;
     grid-column: -1;
 }
 .top-nav {
