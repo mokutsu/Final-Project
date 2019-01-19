@@ -5,7 +5,7 @@ html {
 body {
     background: #fff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.08);
-    color: #323232;
+    color: #545454;
     font-family: Roboto, Arial, sans-serif;
     font-size: 18px;
     line-height: 1.4;
@@ -20,7 +20,7 @@ body {
     top: 0;
     width: 80%;
     height: 2em;
-    background: white;
+    background: transparent;
     display: grid;
     grid-template-columns: 1fr 1fr 4fr;
     margin: 0 auto;
@@ -49,7 +49,7 @@ a {
 }
 
 .alternate-background {
-    background: #24E0FB;
+    background: navy;
     color: white;
     border-radius: 10px;
     margin-left: 0px;
@@ -95,23 +95,23 @@ img {
 }
 
 .add-space-small-tb {
-    margin-top: 0.75em;
-    margin-bottom: 0.75em;
-    padding-top: 0.75em;
-    padding-bottom: 0.75em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .add-space-medium-tb {
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 .add-space-large-tb {
-    margin-top: 5em;
-    margin-bottom: 5em;
-    padding: 5em 2em;
+    margin-top: 10em;
+    margin-bottom: 10em;
+    padding: 10em 2em;
 }
 
 .center {
