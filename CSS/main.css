@@ -40,7 +40,7 @@ body {
 blockquote{
     border: none;
     text-align: center;
-    margin-left: 0;
+    margin: auto;
 }
 
 a {
