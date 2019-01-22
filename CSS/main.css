@@ -134,6 +134,7 @@ img {
     padding-right: 0.5em;
 }
 
+/* Creating bar for hamburger menu */
 .bar1, .bar2, .bar3 {
     width: 33px;
     height: 3px;
@@ -176,6 +177,7 @@ img {
     width: 100%;
 }
 
+/* Attempting to align hamburger click with menu display */
 .change .nav-menu {
     grid-row: 2;
     grid-column: 1 / 5;
@@ -184,6 +186,7 @@ img {
     background-color: pink;
     width: 100%;
 }
+
 /* bigger screen nav  */
 @media only screen and (min-width: 769px) {
     .logo {
