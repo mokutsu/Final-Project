@@ -8,12 +8,12 @@ function myClickFunction(x) {
     var mobileMenuDisplay = document.getElementById("theMobileMenu").style.display;
     
     if (mobileMenuDisplay == "none") {
-        // set display proerty to "block"
-        mobileMenuDisplay.style.display = "block";
+        // set display proerty to "flex"
+        mobileMenuDisplay.style.display = "flex";
     }
         else {
         // set diplay property to "none"
-        mobileMenuDisplay.style.dispaly = "none";
+        mobileMenuDisplay.style.display = "none";
     }
 
     console.log("worked");
