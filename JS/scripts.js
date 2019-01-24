@@ -1,13 +1,14 @@
 console.log("Hello!");
 
-function myClickFunction(x) {
-    x.classList.toggle("change");
+function myClickFunction(e) {
+    element = e.target
+    element.classList.toggle("change");
 
     // How can I get this same function to also make the menu change display properties
 
-    var mobileMenuDisplay = document.getElementById("theMobileMenu").style.display;
+    var mobileMenuDisplay = document.getElementById("theMobileMenu");
     
-    if (mobileMenuDisplay == "none") {
+    if (mobileMenuDisplay.style.display == "none" || mobileMenuDisplay.style.display == "") {
         // set display proerty to "flex"
         mobileMenuDisplay.style.display = "flex";
     }
@@ -19,3 +20,4 @@ function myClickFunction(x) {
     console.log("worked");
 }
 
+document.querySelector('.hamburger-icon').addEventListener('click', myClickFunction)
